@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :comments
+  resource :user, only: [:edit, :update]
   get 'page/home'
 
   get 'pages/info'
