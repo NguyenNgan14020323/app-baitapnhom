@@ -1,0 +1,20 @@
+---
+development:
+  cloud_name: uet
+  api_key: '992147968271347'
+  api_secret: M9TfXOrwtKx0SklY5wOrxPJv-MU
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: uet
+  api_key: '992147968271347'
+  api_secret: M9TfXOrwtKx0SklY5wOrxPJv-MU
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: uet
+  api_key: '992147968271347'
+  api_secret: M9TfXOrwtKx0SklY5wOrxPJv-MU
+  enhance_image_tag: true
+  static_image_support: false
+
